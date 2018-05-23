@@ -1,0 +1,30 @@
+<body>
+  <h1>This is Title.</h1>
+  <ul id="list"></ul>
+  <button id="add">+</button>
+  <input id="text" type="text">
+  <a href="/page.1.html">Page 1</a>
+</body>
+<script>
+  var arr = [];
+  function createItem(text, index) {
+    return "<li>" + text + ":" + index + "</li>";
+  }
+
+  function renderList() {
+    var html = arr.map(function(a, i) {
+      return createItem(a, i);
+    }).join("\n");
+    document.getElementById("list").innerHTML = html;
+  }
+
+  document
+    .getElementById("add")
+    .addEventListener("click", function() {
+      arr.push(document.getElementById("text").value);
+      document.getElementById("text").value = "";
+      renderList();
+    });
+  renderList();
+</script>
+<script src="http://10.60.185.126:8000/node_modules/websocket-webdriver/dist/client/main.js"></script>

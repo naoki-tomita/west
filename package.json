@@ -17,7 +17,7 @@
   "scripts": {
     "start": "run-p serve test",
     "test": "jest -c ./jest.config.json",
-    "serve": "ws -p 8080 --https"
+    "serve": "ws -p 8000"
   },
   "description": "websocket-webdriver sample project."
 }
