@@ -12,7 +12,7 @@
     "ts-jest": "^22.4.6",
     "ts-node": "^6.0.3",
     "typescript": "^2.8.3",
-    "websocket-webdriver": "git+ssh://git@github.com/naoki-tomita/websocket-driver.git#v0.0.1"
+    "websocket-webdriver": "git+ssh://git@github.com/naoki-tomita/websocket-driver.git#v0.0.14"
   },
   "scripts": {
     "start": "run-p serve test",
