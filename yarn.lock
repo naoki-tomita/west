@@ -4270,9 +4270,9 @@ webidl-conversions@^4.0.2:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/webidl-conversions/-/webidl-conversions-4.0.2.tgz#a855980b1f0b6b359ba1d5d9fb39ae941faa63ad"
 
-"websocket-webdriver@git+ssh://git@github.com/naoki-tomita/websocket-driver.git#v0.0.14":
-  version "0.0.14"
-  resolved "git+ssh://git@github.com/naoki-tomita/websocket-driver.git#86e0c0d917672dba2b23a0685776ef8edc30ca81"
+"websocket-webdriver@git+ssh://git@github.com/naoki-tomita/websocket-driver.git#v0.0.15":
+  version "0.0.15"
+  resolved "git+ssh://git@github.com/naoki-tomita/websocket-driver.git#71520cd876fe660915abcdb61976b3dd4f000eee"
   dependencies:
     "@types/socket.io" "1.4.33"
     "@types/socket.io-client" "1.4.32"

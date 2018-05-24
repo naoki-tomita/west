@@ -19,10 +19,14 @@ describe("WebSocket-WebDriver", () => {
   it("should test success.", async () => {
     await element("#text").sendKeys("Hoge");
     await element("#add").click();
-    expect(await element("ul > li:nth-child(1)").getText()).toBe("Hoge:0");
+    expect(
+      await element("ul > li:nth-child(1)").getText()
+    ).toBe("Hoge:0");
     await element("#add").click();
     await element("#add").click();
     await element("#add").click();
-    expect(await element("ul > li:nth-child(4)").getText()).toBe(":3");
+    expect(
+      await element("ul > li:nth-child(4)").getText()
+    ).toBe(":3");
   });
 });
